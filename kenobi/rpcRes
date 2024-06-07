@@ -1,0 +1,10 @@
+# Nmap 7.94 scan initiated Sun Oct 15 08:55:48 2023 as: nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount -oN rpcRes 10.10.2.252
+Nmap scan report for 10.10.2.252
+Host is up (0.15s latency).
+
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+| nfs-showmount: 
+|_  /var *
+
+# Nmap done at Sun Oct 15 08:55:51 2023 -- 1 IP address (1 host up) scanned in 2.45 seconds
