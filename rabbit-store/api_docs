@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Date: Tue, 25 Feb 2025 07:51:34 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Tue, 25 Feb 2025 07:51:09 GMT
+ETag: W/"233-1953c169a78"
+Content-Type: application/octet-stream
+Content-Length: 563
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+Endpoints Perfectly Completed
+
+POST Requests:
+/api/register - For registering user
+/api/login - For loggin in the user
+/api/upload - For uploading files
+/api/store-url - For uploadion files via url
+/api/fetch_messeges_from_chatbot - Currently, the chatbot is under development. Once development is complete, it will be used in the future.
+
+GET Requests:
+/api/uploads/filename - To view the uploaded files
+/dashboard/inactive - Dashboard for inactive user
+/dashboard/active - Dashboard for active user
+
+Note: All requests to this endpoint are sent in JSON format.
